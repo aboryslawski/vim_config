@@ -1,7 +1,10 @@
 set number
 set numberwidth=1
 inoremap {      {}<Left>
-inoremap {<CR>  {<CR>}<Esc>O<Space><Space><Space><Space>
+inoremap {<CR>  {<CR>}<Esc>O
 set expandtab
 set shiftwidth=4
 set tabstop=4
+set ai
+set cindent
+set smartindent
