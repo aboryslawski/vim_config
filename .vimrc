@@ -7,3 +7,4 @@ set tabstop=4
 set ai
 set cindent
 set smartindent
+autocmd FileType make setlocal noexpandtab
