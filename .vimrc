@@ -1,6 +1,5 @@
 set number
 set numberwidth=1
-inoremap {      {}<Left>
 inoremap {<CR>  {<CR>}<Esc>O
 set expandtab
 set shiftwidth=4
